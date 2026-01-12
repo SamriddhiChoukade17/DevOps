@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  wildfly:
+    build: .
+    image: wildfly-you
+    container_name: wildfly-you
+    ports:
+      - "8050:8080"
