@@ -1,9 +1,10 @@
-version: "3.9"
+version: "9.0"
 
 services:
-  wildfly:
+  tomcat:
     build: .
-    image: wildfly-you
-    container_name: wildfly-you
+    image: tomcat-nigga
+    container_name: tomcat-you
     ports:
       - "8050:8080"
+
