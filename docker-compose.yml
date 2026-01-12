@@ -6,5 +6,6 @@ services:
     image: tomcat-nigga
     container_name: tomcat-you
     ports:
-      - "8050:8080"
+      - "8090:8080"
+
 
