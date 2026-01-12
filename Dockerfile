@@ -1,3 +1,4 @@
-FROM jboss/wildfly:latest
+FROM tomcat:latest
 
-COPY HW.html /opt/jboss/wildfly/standalone/deployments/ROOT.war/HW.html
+COPY HW.html /usr/local/tomcat/webapps/ROOT/
+
